@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cancel Booking"
+            android:textColor="#00DDDD"
+            android:gravity="center"
+            android:textSize="19pt"
+            android:id="@+id/textcancel"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/id"
+            android:hint="Booking ID"
+            android:layout_gravity="center"
+            android:textSize="13pt"
+            android:textColor="#00B7EB"
+            android:layout_marginTop="15dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Search    "
+            android:textSize="15pt"
+            android:textColor="#00B7EB"
+            android:background="#808080"
+            android:id="@+id/search1"
+            android:layout_gravity="center"
+            android:layout_marginTop="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/plot"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15pt"
+            android:text="Plot:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tplot"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0070ff"
+            android:textSize="15pt"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15pt"
+            android:text="Slot : "
+            android:id="@+id/slot"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0070ff"
+            android:textSize="15pt"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tslot" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" ID  :"
+            android:textSize="15pt"
+            android:id="@+id/textView11"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15pt"
+            android:textColor="#0070ff"
+            android:id="@+id/tid" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Date : "
+            android:textSize="15pt"
+            android:id="@+id/textView13"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15pt"
+            android:textColor="#0070ff"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tdate"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Cancel    "
+            android:textSize="15pt"
+            android:layout_marginTop="10dp"
+            android:textColor="#00B7EB"
+            android:layout_gravity="center"
+            android:background="#808080"
+            android:id="@+id/cancel1"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
